@@ -26,7 +26,7 @@ function App() {
 
 
   return (
-    <UserContext.Provider value={providerValue}>
+    
     <div className="App">
 
       <Routes>
@@ -42,7 +42,7 @@ function App() {
       </Routes>
 
     </div>
-    </UserContext.Provider>
+    
   )
 }
 
