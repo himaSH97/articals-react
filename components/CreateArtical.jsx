@@ -18,6 +18,9 @@ export default function CreateArtical() {
   const [tag2, setTag2] = useState("")
   const [imgUrl, setImgUrl] = useState("")
   const [register, setRegister] = useState(false);
+
+
+  
   let d = new Date();
   let month = d.toLocaleString('default', { month: 'long' });
   let year = d.getFullYear();
