@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 import { MongoClient } from 'mongodb';
 
-const uri = "mongodb+srv://Nash:rnd4321@articalcluster.fh6lryy.mongodb.net/?retryWrites=true&w=majority/?directConnection=true";
+
   
 
 const client =  MongoClient.connect(uri,(err,db)=>{
