@@ -2,9 +2,7 @@ import React from 'react';
 import { useEffect, useState ,useContext } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import axios from "axios";
-import { Form, Button } from "react-bootstrap";
 import '../styles/login.scss';
-import { UserContext } from '../UserContext.cjs';
 import {reactLocalStorage} from 'reactjs-localstorage';
 
 
@@ -27,7 +25,7 @@ const Login = () => {
         // set configurations
         const configuration = {
             method: "post",
-            url: "http://localhost:8000/login",
+            url: "http://localhost:8000/log",
             data: {
                 email,
                 password,
