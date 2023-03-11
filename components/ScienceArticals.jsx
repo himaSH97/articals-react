@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import Card from "../components/Card.jsx"
 import { reactLocalStorage } from 'reactjs-localstorage';
 import { useNavigate } from 'react-router-dom';
-import { TfiWrite } from 'react-icons/Tfi';
+
 
 const ScienceArticals = () => {
     const [hist, setHist] = useState([])
@@ -46,7 +46,7 @@ const ScienceArticals = () => {
                 <div className="addArtical">
                 
                     <a href="/test">
-                    <TfiWrite className='write'/>
+                    
                         <h4> write an artical</h4>
                     </a>
                 </div>

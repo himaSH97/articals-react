@@ -5,7 +5,6 @@ import Card from "../components/Card.jsx"
 import { UserContext } from '../UserContext.cjs';
 import { reactLocalStorage } from 'reactjs-localstorage';
 import { useNavigate } from 'react-router-dom';
-import { TfiWrite } from 'react-icons/Tfi';
 
 const HistoryArticals = () => {
     const [hist, setHist] = useState([])
@@ -49,7 +48,7 @@ const HistoryArticals = () => {
                 <div className="addArtical">
 
                     <a href="/test">
-                        <TfiWrite className='write' />
+                        
                         <h4> write an artical</h4>
                     </a>
                 </div>

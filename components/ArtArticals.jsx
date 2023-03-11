@@ -5,7 +5,7 @@ import { useLocation } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import {reactLocalStorage} from 'reactjs-localstorage';
 import { useEffect, useState  } from 'react';
-import { TfiWrite } from 'react-icons/Tfi';
+
 
 const ArtArticals = () => {
     const location = useLocation();
@@ -47,7 +47,7 @@ const ArtArticals = () => {
             <div className="addArtical">
             
                 <a href="/test">
-                <TfiWrite className='write'/>
+                
                     <h4> write an artical</h4>
                 </a>
             </div>
