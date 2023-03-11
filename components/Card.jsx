@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/card.scss';
-import { BsBrushFill } from 'react-icons/Bs';
+
 import { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
 
@@ -17,7 +17,7 @@ const Card = ({ title, content, date, tag1, tag2, author, imgUrl }) => {
                 <img src={imgUrl} alt="../img/img.jpg" />
 
                 <div className='info'>
-                    <h5> <BsBrushFill className='brush' /> by {author}</h5>
+                    <h5>By {author}</h5>
                     <h3>{title}</h3>
                     <h6>{date}</h6>
                     <p>{content}</p>
